@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> ePortfolio Thiam</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        
+        <!-- mobile specific info ... mobile specify windows size to 800/900 whereas device-width is less in general, resulting in small texte etc.- those meta correct this... -->
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+        <!-- end mobile specific info -->
+        
+        
+	    <link rel="stylesheet" type="text/css" href="./style.css" />
+		
+		<link rel="stylesheet" type="text/css" href="./stylel.css" media="only screen and (min-width: 1024px)" /> 
+		<link rel="stylesheet" type="text/css" href="./stylem.css" media="only screen and (max-width: 1024px)" /> 
+		<link rel="stylesheet" type="text/css" href="./styleh.css" media="screen and (max-device-width: 800px)" /> 
+	</head>
+	<body ontouchstart="">
+		
+		<div id="globale">	
+			
+			<header> <!-- balise html5 equivalant à <div id="header"> -->
+				<div id="logo">
+				</div>
+				<div id="nom">
+                    <h1> Mohamed THIAM </h1>
+                    <p> Étudiant en Génie Electrique et Informatique Industrielle </p>
+                </div>
+			</header>
+			
+			
+			<div style="clear:both"></div>
+			<nav>
+				<div id="menu">
+					<ul>
+						<li><a href="index.html">Accueil</a> </li>
+						<li><a href="competences.html">Compétences</a></li>
+						<li><a href="experiences.html">Expériences</a></li>
+						<li><a href="loisirs.html">Loisirs</a></li>
+					</ul>
+					<!-- </li></ul> -->
+				</div> <!-- fin id=menu -->
+			</nav>
+			
+			<div id="page">
+				
+				<section id="sec1">
+
+					<h1 id="src" >Mes Experiences</h1>
+					<p> Voici le détail de mes expériences professionnelles</p>
+					
+					<article class="exp">
+						<h1> Cariste C6</h1>
+						<p> Avec une agence d'interim j'ai travaillé pendant l'été 2022 et l'été 2023 en tant que cariste c6 étant donné que j'ai mon caces 6 pour me faire de l'argent. </p>
+					</article>
+					<article id="exo2" class="exp" >
+						<h1> Voiture Autonome IUT EVRY </h1>
+						<p> j'ai fais un des mes stages à l'IUT Evry Val d'Essonne pendant mon stage j'ai du programmer une voiture modèle 1/10ème pour participer à la course de l'ENS Cachan. Pour participer a cette course nous etions une dizaines de participants de plusieurss niveau différents du BUT au Master/Ingénieurs. Le but de la course étais le suivant:
+						Monter une voiture modèle 1/10ème, utiliser soit l'arduino soit le raspberry pi soit les deux ensemble pour rendre la voiture autonome. pour cela il nous ont fournir une série de capteurs différent qu'on peux utiliser a notre guise pour nous faciliter la tache. </p>
+					</article>
+					<article id="exo2" class="exp" >
+						<h1> Convoyeur mobile </h1>
+						<p> j'ai fais un des mes stages à l'usine de ciment de Lafarge Holcim Guinée en Guinée, j'etaiss donc stagiaire automaticien et mon projet étais de remplacer le système de communication actuel du convoyeur mobile qui est un automate qui communique avec l'automate principal en un déporté de l'automate principal pour faciliter la communication. Pour se faire j'ai donc fais le programme Ladder de ce convoyeur mobile avec les logiciels STEP 7 et WINCC et maintenant j'attend l'arrivée des composants pour installer dans l'usine le déporté.  </p>
+					</article>
+				</section>
+			</div> <!-- fin id="page"-->
+			
+			<footer><p>&copy; 2024 THIAM Mohamed - E-Portfolio Etudiant GEII</p>
+			</footer>
+			
+		</div> <!-- fin id="globale"-->
+	</body>
+</html>

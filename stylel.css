@@ -1,0 +1,27 @@
+nav {
+	float: left;
+	vertical-align:top;
+	width:15%;
+	
+	padding:1% 1% 1% 1%;
+}
+
+nav ul li {	
+	margin: 2%;
+}
+
+nav ul li a
+{	display: block;
+} 
+
+nav ul ul li {
+	margin: 1% 10% 1% 10%;
+
+}
+
+
+
+
+
+
+

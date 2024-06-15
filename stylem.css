@@ -1,0 +1,36 @@
+
+nav ul {
+	margin-left: auto;
+	/*margin-right: auto;
+*/}
+
+nav ul li {
+	display: inline-block;
+	width:20%;
+}
+
+#snav li {
+	display: inline-block;
+	width:20%;
+}
+
+/* positionnement par rapport au bloc pere... la page */
+/*
+nav ul ul 
+{
+	position : absolute;	 
+	left: 0%;
+	top:0%;
+	
+	width: 80%;
+	
+	padding: 0;
+	margin: 10% 0% 0% 5%;
+}*/
+
+
+
+#page {
+	margin: 0% 0% 0% 0%;
+	padding: 3% 5% 5% 3%;
+}
